@@ -37,7 +37,6 @@ img {
     position: relative;
     bottom: 20px;
     padding: 20px;
-    
 }
 
 body{
@@ -73,10 +72,10 @@ h1{
 }
 
 h2{
-    background-color: aquamarine;
+    background-color: rgb(226, 238, 234);
     border-style: solid;
     border-radius: 0px 0px 50px 0px;
-
+    
 }
 /* mouse over h2*/
 h2:hover{
@@ -88,3 +87,149 @@ h2:hover{
 a:hover {
     color: #3450cc;
   }
+
+/*code for mobile devices smaller than 650px*/
+
+@media only screen and (max-width:650px){
+
+
+body{
+    background-color: #e2e9e7;
+    width: 750px;
+}
+#container{
+    background-color: rgb(223, 226, 232);
+    width: 750px;
+
+}
+h2{
+    border-style: none;
+    background-color: non;
+    width: 750px;
+    border-style: none;
+    border-color:#e2e9e7 ;
+}
+
+#right{
+    float: none;
+    width: 750px;
+    position: relative;
+    top: 150px;
+    right: 500px;
+    border-style: none;
+    padding: 500px;
+    height: 400px;
+    
+}
+
+#left{
+    background-image: none;
+    position: relative;
+    bottom: 50px;
+    width: 750px;
+}
+
+#name{
+    font-size: medium;
+    background-color: #67d3d3;
+}
+
+#menu{
+    position: relative;
+    left: 550px;
+    top: 10px;
+    border-radius: none;
+
+}
+
+#image{
+    position: relative;
+    top: 16px;
+    left: 30px;
+    width: 180px;
+    height: 180px;
+}
+
+#footer{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+}
+
+
+/*code for mobile devices smaller than 1000px*/
+
+@media only screen and (max-width:1000px){
+
+
+    body{
+        background-color: #67d3d3;
+        width: 750px;
+    }
+    #container{
+        background-color: rgb(255, 255, 255);
+        width: 750px;
+    
+    }
+    h2{
+        border-style: none;
+        background-color: non;
+        width: 750px;
+        border-style: none;
+        border-color:#ffffff ;
+    }
+    
+    #right{
+        float: none;
+        width: 750px;
+        position: relative;
+        top: 150px;
+        right: 500px;
+        border-style: none;
+        padding: 500px;
+        height: 400px;
+        b
+        
+    }
+    
+    #left{
+        background-image: none;
+        position: relative;
+        bottom: 50px;
+        width: 750px;
+        text-align: center;
+    }
+    
+    #name{
+        font-size: medium;
+        font-style: oblique;
+        background-color: deepskyblue;
+    
+    }
+    
+    #menu{
+        position: relative;
+        bottom: 90px;
+        border-radius: none;
+        text-align: left;
+    
+    
+    }
+    
+    #image{
+        position: relative;
+        top: 16px;
+        left: 300px;
+        width: 180px;
+        height: 180px;
+        clip-path: circle();
+    }
+    
+    #footer{
+        text-align: center;
+        background-color: burlywood;
+    }
+   
+    
+    }
