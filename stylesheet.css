@@ -1,0 +1,90 @@
+#image{
+    text-align: center;
+    clip-path: circle();
+    position: relative;
+    right: 50px;
+    bottom: 40px;
+}
+
+img {
+    width: 215px;
+}
+
+#name{
+    text-align: center;
+    background-color: #22b1bb;
+    height: 100px;
+   position: relative;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #eee;
+   
+}
+
+#left{
+    background-color: #055c6c;
+    position:relative ;
+    bottom:20px;
+    width: 600px;
+    float: left;
+    border-style: groove;
+    height: 625px;
+    background-image:url(https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg?t=st=1678275574~exp=1678276174~hmac=1527a2d5663d254272cfe54557d2c94465ba15bf901be8cb3b0a465227ae49de) ;
+}
+
+#right{
+    float: right;
+    width: 1000px;
+    position: relative;
+    bottom: 20px;
+    padding: 20px;
+    
+}
+
+body{
+     background-color: whitesmoke;
+    border-style: double;
+}
+
+#container{
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#menu{
+    background-color: black;
+    width: 200px;
+    position: relative;
+    bottom:35px;
+    border-radius: 0px 0px 40px 40px;
+}
+
+#footer{
+    background-color: #22b1bb;
+    position: relative;
+    bottom: 38px;
+    clear: both;
+}
+
+h1{
+    position: relative;
+    top: 25px;
+}
+
+h2{
+    background-color: aquamarine;
+    border-style: solid;
+    border-radius: 0px 0px 50px 0px;
+
+}
+/* mouse over h2*/
+h2:hover{
+
+    font-size: 30px;
+}
+
+/* mouse over link */
+a:hover {
+    color: #3450cc;
+  }
